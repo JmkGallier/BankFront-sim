@@ -332,28 +332,4 @@ while program_state == 0:
 
 
 
-# Load data from pickle file
-# Display user accounts
-# Provide menu
-    # Delete Account
-    # Update Account
 
-
-# # API # #
-# PLAID_CLIENT_ID=5cf8369c5885ff001239e930
-# PLAID_SECRET=5cf80845b2e5c9ddc0b92dc31ec8
-# PLAID_PUBLIC_KEY=26d9149377ea5396fbbddd2cbcb6fe
-# PLAID_PRODUCTS=transactions
-# PLAID_COUNTRY_CODES=US,CA,GB,FR,ES
-# PLAID_ENV=sandbox python server.py
-# # #
-# access_tok = "access-sandbox-554fbd94-3b62-45df-a380-ece66ded18d8"
-# item_id = "8Aalnm8RaNcpxgwnPZR5skgN98e18lIwajE4k"
-#
-# client = Client(client_id="5cf8369c5885ff001239e930",
-#                 secret="5cf80845b2e5c9ddc0b92dc31ec8aa",
-#                 public_key="26d9149377ea5396fbbddd2cbcb6fe",
-#                 environment="sandbox")
-#
-# text = plaid.api.Accounts(client)
-# text.balance
