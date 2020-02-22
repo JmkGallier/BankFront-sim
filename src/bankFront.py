@@ -6,9 +6,6 @@ import pickle
 from datetime import datetime
 
 
-# Need way to include Expenses
-# Introduce formmating for balance information to include commas
-# Since the amount of data I want to collect ranges different topics, i may need to use SQL or multiple CSVs
 class UserData:
     historical_data_list = []
     menu_options = ["Display User Financials",
